@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(98deg,#ccc3c3 10%, #a8c4a8 100%);
+}
+canvas{
+    border: 5px solid black;
+
+}
