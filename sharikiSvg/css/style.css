@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+}
+.conteiner{
+    background: linear-gradient(90deg,#ccc4c4 0%, #d9ffd9 80%);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+svg{
+    border: 2px solid rebeccapurple;
+}
+
