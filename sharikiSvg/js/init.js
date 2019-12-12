@@ -1,5 +1,4 @@
 let svg = document.getElementById('svg');
-
 class ball {
     constructor(x, y) {
         this.radius = 20;
@@ -47,6 +46,8 @@ function clickOnBox() {
 }
 
 function drawInSvg() {
+    let start = new Date ();
+
     svg.innerHTML = '';
     for (let i = 0; i < ballsInBox.length; i++) {
 
@@ -58,10 +59,14 @@ function drawInSvg() {
         svg.appendChild(newCircle);
 
     }
+    let end = new Date();
+    console.log('Операция заняла ' + (end.getTime() - start.getTime()) + ' мсек');
+
+
 }
-console.log(svg.width)
+/*console.log(svg.width)
 console.log(svg.height)
-console.log(svg.width.animVal.value)
+console.log(svg.width.animVal.value)*/
 function flyBalls() {
     for (let i = 0; i < ballsInBox.length; i++) {
         if (ballsInBox[i].cx >= svg.width.animVal.value -20) {
@@ -87,6 +92,7 @@ function flyBalls() {
     }
 
 }
+
 
 clickOnBox();
 

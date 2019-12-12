@@ -42,8 +42,8 @@ function clickOnBox() {
             let y = event.offsetY;
             const newBall = new ball(x, y);
             ballsInBox.push(newBall);
-            setInterval(drawInCanvas, 1);
-            setInterval(flyBalls, 1);
+            setInterval(drawInCanvas, 100);
+            setInterval(flyBalls, 100);
 
 
         }
@@ -51,6 +51,8 @@ function clickOnBox() {
 }
 
 function drawInCanvas() {
+    let start = new Date ();
+
     ctx.clearRect(0, 0, 700, 500);
     for (let i = 0; i < ballsInBox.length; i++) {
         ctx.beginPath();
@@ -62,6 +64,8 @@ function drawInCanvas() {
         ctx.fill()
         ctx.stroke();
     }
+    let end = new Date();
+    console.log('Операция заняла ' + (end.getTime() - start.getTime()) + ' мсек');
 }
 
 function flyBalls() {

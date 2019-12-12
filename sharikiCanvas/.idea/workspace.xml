@@ -18,7 +18,7 @@
     <session id="-219431705">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.19" value="1" />
@@ -148,9 +148,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="x" value="-847" />
+    <option name="y" value="-220" />
+    <option name="width" value="854" />
+    <option name="height" value="1017" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -216,12 +217,12 @@
       <workItem from="1575663625561" duration="1232000" />
       <workItem from="1575882781935" duration="150000" />
       <workItem from="1576170477303" duration="657000" />
-      <workItem from="1576179344902" duration="2430000" />
+      <workItem from="1576179344902" duration="2762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33948000" />
+    <option name="totallyTimeSpent" value="34280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="697" height="735" extended-state="0" />
