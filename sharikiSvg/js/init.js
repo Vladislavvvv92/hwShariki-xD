@@ -4,7 +4,7 @@ class ball {
         this.radius = 20;
         this.cx = x;
         this.cy = y;
-        this.fill = "#E9DCFF";
+        this.fill = "blue";
         this.dX = 3;
         this.dY = 3;
     }
