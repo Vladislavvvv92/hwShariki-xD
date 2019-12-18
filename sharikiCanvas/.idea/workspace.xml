@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb0d84b0-c6b6-45ac-bc3e-88c200f873cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sharikiSvg/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sharikiSvg/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sharikiSvg/js/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../sharikiSvg/js/init.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +14,7 @@
     <session id="-219431705">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.18" value="1" />
@@ -48,7 +45,7 @@
         <counts>
           <entry key="css" value="101" />
           <entry key="html" value="104" />
-          <entry key="js" value="2654" />
+          <entry key="js" value="2679" />
           <entry key="json" value="15" />
         </counts>
       </usages-collector>
@@ -57,7 +54,7 @@
           <entry key="CSS" value="101" />
           <entry key="HTML" value="104" />
           <entry key="JSON" value="15" />
-          <entry key="JavaScript" value="2654" />
+          <entry key="JavaScript" value="2679" />
         </counts>
       </usages-collector>
     </session>
@@ -85,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/init.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+            <state relative-caret-position="460">
+              <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
             </state>
           </provider>
         </entry>
@@ -130,11 +127,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="646" />
-    <option name="y" value="29" />
-    <option name="width" value="697" />
-    <option name="height" value="730" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="104" />
+    <option name="y" value="30" />
+    <option name="width" value="1145" />
+    <option name="height" value="664" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -204,15 +201,15 @@
       <workItem from="1576185227464" duration="277000" />
       <workItem from="1576499768001" duration="1214000" />
       <workItem from="1576591465088" duration="13623000" />
-      <workItem from="1576625298769" duration="1853000" />
+      <workItem from="1576625298769" duration="3655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51247000" />
+    <option name="totallyTimeSpent" value="53049000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.54160124" />
@@ -273,8 +270,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+        <state relative-caret-position="460">
+          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
         </state>
       </provider>
     </entry>

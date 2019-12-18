@@ -1,7 +1,6 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
-
 class ball {
     constructor(x, y, dX, dY) {
         this.x = x;
@@ -34,7 +33,6 @@ class ball {
 
 let ballsInBox = [];
 
-
 function clickOnBox() {
     let lengthGipitenuzeCircule = 0;
     canvas.onmousemove = function () {
@@ -42,37 +40,30 @@ function clickOnBox() {
             let x = event.offsetX;
             let y = event.offsetY;
 
-           // let tempArrayBall = [];
-            console.log(lengthGipitenuzeCircule)
             for (let i = 0; i < ballsInBox.length; i++) {
                 lengthGipitenuzeCircule = Math.sqrt(Math.pow(ballsInBox[i].getX - x, 2) + Math.pow(ballsInBox[i].getY - y, 2));
 
                 if (lengthGipitenuzeCircule <= ballsInBox[i].radius) {
-                   /* let newBall1 = new ball(x, y, -3, -3);
-                    let newBall2 = new ball(x, y, -3, +3);
-                    let newBall3 = new ball(x, y, 3, -3);*/
-
-                    ballsInBox.push(new ball(x, y, -3, -3));
-                    ballsInBox.push(new ball(x, y, -3, +3));
-                    ballsInBox.push(new ball(x, y, 3, -3));
+                    ballsInBox.push(new ball(x, y, -1, -1));
+                    ballsInBox.push(new ball(x, y, -1, +1));
+                    ballsInBox.push(new ball(x, y, 1, -1));
                     console.log('ok')
                     console.log(ballsInBox)
                     return;
                 }
 
             }
-            const newBall = new ball(x, y, 3, 3);
+            const newBall = new ball(x, y, 1, 1);
             ballsInBox.push(newBall);
 
             console.log(ballsInBox);
-            //Array.prototype.push.apply(ballsInBox, tempArrayBall);
 
-            setInterval(drawInCanvas, 100);
-            setInterval(flyBalls, 100);
 
 
         }
     }
+
+
 }
 
 
@@ -121,6 +112,8 @@ function flyBalls() {
 }
 
 clickOnBox();
+setInterval(drawInCanvas, 10);
+setInterval(flyBalls, 10);
 
 
 
